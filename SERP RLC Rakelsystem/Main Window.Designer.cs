@@ -54,6 +54,7 @@
             this.anropbtn.TabIndex = 0;
             this.anropbtn.Text = "ANROP STOCKHOLM";
             this.anropbtn.UseVisualStyleBackColor = false;
+            this.anropbtn.Click += new System.EventHandler(this.Anrop_Click);
             // 
             // raps50btn
             // 
@@ -67,6 +68,7 @@
             this.raps50btn.TabIndex = 1;
             this.raps50btn.Text = "RAPS 50";
             this.raps50btn.UseVisualStyleBackColor = false;
+            this.raps50btn.Click += new System.EventHandler(this.Raps50_Click);
             // 
             // raps51btn
             // 
@@ -80,6 +82,7 @@
             this.raps51btn.TabIndex = 2;
             this.raps51btn.Text = "RAPS 51";
             this.raps51btn.UseVisualStyleBackColor = false;
+            this.raps51btn.Click += new System.EventHandler(this.Raps51_Click);
             // 
             // raps52btn
             // 
@@ -93,6 +96,7 @@
             this.raps52btn.TabIndex = 3;
             this.raps52btn.Text = "RAPS 52";
             this.raps52btn.UseVisualStyleBackColor = false;
+            this.raps52btn.Click += new System.EventHandler(this.Raps52_Click);
             // 
             // raps53btn
             // 
@@ -106,6 +110,7 @@
             this.raps53btn.TabIndex = 4;
             this.raps53btn.Text = "RAPS 53";
             this.raps53btn.UseVisualStyleBackColor = false;
+            this.raps53btn.Click += new System.EventHandler(this.Raps53_Click);
             // 
             // raps54btn
             // 
@@ -119,6 +124,7 @@
             this.raps54btn.TabIndex = 5;
             this.raps54btn.Text = "RAPS 54";
             this.raps54btn.UseVisualStyleBackColor = false;
+            this.raps54btn.Click += new System.EventHandler(this.Raps54_Click);
             // 
             // raps55btn
             // 
@@ -132,6 +138,7 @@
             this.raps55btn.TabIndex = 6;
             this.raps55btn.Text = "RAPS 55";
             this.raps55btn.UseVisualStyleBackColor = false;
+            this.raps55btn.Click += new System.EventHandler(this.Raps55_Click);
             // 
             // insats51btn
             // 
@@ -145,6 +152,7 @@
             this.insats51btn.TabIndex = 7;
             this.insats51btn.Text = "INSATS 51";
             this.insats51btn.UseVisualStyleBackColor = false;
+            this.insats51btn.Click += new System.EventHandler(this.Insats51_Click);
             // 
             // insats52btn
             // 
@@ -158,6 +166,7 @@
             this.insats52btn.TabIndex = 8;
             this.insats52btn.Text = "INSATS 52";
             this.insats52btn.UseVisualStyleBackColor = false;
+            this.insats52btn.Click += new System.EventHandler(this.Insats52_Click);
             // 
             // insats53btn
             // 
@@ -171,6 +180,7 @@
             this.insats53btn.TabIndex = 9;
             this.insats53btn.Text = "INSATS 53";
             this.insats53btn.UseVisualStyleBackColor = false;
+            this.insats53btn.Click += new System.EventHandler(this.Insats53_Click);
             // 
             // insats54btn
             // 
@@ -184,6 +194,7 @@
             this.insats54btn.TabIndex = 10;
             this.insats54btn.Text = "INSATS 54";
             this.insats54btn.UseVisualStyleBackColor = false;
+            this.insats54btn.Click += new System.EventHandler(this.Insats54_Click);
             // 
             // channelDisplay
             // 
@@ -196,7 +207,7 @@
             this.channelDisplay.Name = "channelDisplay";
             this.channelDisplay.Size = new System.Drawing.Size(388, 29);
             this.channelDisplay.TabIndex = 11;
-            this.channelDisplay.Text = "Nurvarande Kanal:";
+            this.channelDisplay.Text = "NUVARANDE KANAL:";
             this.channelDisplay.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.channelDisplay.Click += new System.EventHandler(this.label1_Click);
             // 
